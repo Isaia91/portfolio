@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Attena';
-    src: url('./static/assets/fonts/Attena-Font/Attena.ttf') format('truetype'),
-         url('./static/assets/fonts/Attena-Font/Attena.otf') format('opentype');
+    src: url('./assets/fonts/Attena-Font/Attena.ttf') format('truetype'),
+         url('./assets/fonts/Attena-Font/Attena.otf') format('opentype');
     /* Autres propriétés si nécessaires */
 }
 
 @font-face {
     font-family: 'Evafiya';
-    src: url('./static/assets/fonts/Evafiya-Font/Evafiya.ttf') format('truetype');
+    src: url('./assets/fonts/Evafiya-Font/Evafiya.ttf') format('truetype');
     /* Autres propriétés si nécessaires */
 }
 
@@ -42,7 +42,7 @@ body {
 	height: 400px;
 	overflow: hidden;
 	border-radius: 62% 36% 52% 48% / 62% 22% 76% 28%;
-	background: url('./static/assets/hero_back.jpg');
+	background: url('./assets/hero_back.jpg');
 	background-size: cover;
 
 	box-shadow: 0 0 15px rgba(0, 0, 0, .2);
