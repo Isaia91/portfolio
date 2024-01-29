@@ -42,7 +42,7 @@ body {
 	height: 400px;
 	overflow: hidden;
 	border-radius: 62% 36% 52% 48% / 62% 22% 76% 28%;
-	background: url('./assets/hero_back.jpg');
+	background: url('./hero_back.jpg');
 	background-size: cover;
 
 	box-shadow: 0 0 15px rgba(0, 0, 0, .2);
