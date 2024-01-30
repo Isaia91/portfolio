@@ -916,12 +916,12 @@ x:-o-prefocus, hr:after {
 }
 
 h2 {
-	font-family: 'Attena', sans-serif;
-  color: #fff;
-  font-size: clamp(30px, 6vw, 60px);
-  letter-spacing: 2px;
-  text-align: center;
-  transform: scale(.95, 1);
+	font-family: 'Helvetica', sans-serif;
+	color: #fff;
+	font-size: clamp(30px, 6vw, 60px);
+	letter-spacing: 2px;
+	text-align: center;
+	transform: scale(.95, 1);
 }
 
 .links {
@@ -962,7 +962,7 @@ link>img:active {
   position: relative;
 }
 
-label, input, textarea {
+#contact>label, input, textarea {
 	font-family: 'Attena', sans-serif;
 }
 
@@ -996,7 +996,7 @@ textarea:valid+label {
   transition: all .225s ease;
 }
 
-.submit-btn {
+#contact>.submit-btn {
   background-color: #fd917e;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
