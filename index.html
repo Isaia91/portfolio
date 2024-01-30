@@ -62,7 +62,7 @@
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                </li>
                <!-- Left links -->
             </div>
@@ -313,11 +313,15 @@
                  <input type="text" name="email" required>
                  <label>Email:</label>
                </div>
+               <div class=" my-3 form-item">
+                  <input type="text" name="objet" required>
+                  <label>Objet:</label>
+                </div>
                <div class="my-3 form-item">
                  <textarea class="" name="message" required></textarea>
                  <label>Message:</label>
                </div>
-               <button class="submit-btn">Send</button>  
+               <button class="submit-btn" onclick="sendEmail()">Send</button>  
              </form>
            </div>
          </div>
@@ -541,6 +545,26 @@
 
          window.addEventListener("resize", adjust);
 
+         function sendEmail() {
+            var sender = document.getElementsByName('sender')[0].value;
+            var email = document.getElementsByName('email')[0].value;
+            var message = document.getElementsByName('message')[0].value;
+
+            if (sender && email && message) {
+                var subject = 'Subject';
+
+                // Construire le corps du message avec un retour à la ligne
+                var body = message
+
+                // Construire l'URL avec les champs préremplis
+                var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+                // Ouvrir le client de messagerie par défaut avec les champs préremplis
+                window.open(mailtoLink);
+            } else {
+                alert('Veuillez remplir tous les champs du formulaire.');
+            }
+        }
 
       </script>
    </body>

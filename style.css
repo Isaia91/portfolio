@@ -22,6 +22,7 @@
 body {
 	color: #212529;
 	background-color: #1a1a1a;
+	font-family: "Helvetica",sans-serif;
 }
 
 .hu {
@@ -962,8 +963,8 @@ link>img:active {
   position: relative;
 }
 
-#contact>label, input, textarea {
-	font-family: 'Attena', sans-serif;
+label, input, textarea {
+	font-family: 'Helvetica', sans-serif;
 }
 
 label {
@@ -996,7 +997,7 @@ textarea:valid+label {
   transition: all .225s ease;
 }
 
-#contact>.submit-btn {
+.submit-btn {
   background-color: #fd917e;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
