@@ -306,10 +306,6 @@
            <div class="contact-form-wrapper">
              <form>
                <div class=" my-3 form-item">
-                 <input type="text" name="sender" required>
-                 <label>Name:</label>
-               </div>
-               <div class=" my-3 form-item">
                  <input type="text" name="email" required>
                  <label>Email:</label>
                </div>
@@ -546,12 +542,12 @@
          window.addEventListener("resize", adjust);
 
          function sendEmail() {
-            var sender = document.getElementsByName('sender')[0].value;
             var email = document.getElementsByName('email')[0].value;
             var message = document.getElementsByName('message')[0].value;
+            var subject = document.getElementsByName('objet')[0].value;;
 
-            if (sender && email && message) {
-                var subject = 'Subject';
+            if (email && message) {
+                
 
                 // Construire le corps du message avec un retour à la ligne
                 var body = message
