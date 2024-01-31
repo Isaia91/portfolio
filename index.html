@@ -627,7 +627,8 @@
                 
 
                 // Construire le corps du message avec un retour à la ligne
-                var body = message
+                var body = email + '\n\n' + message;
+
 
                 // Construire l'URL avec les champs préremplis
                 var mailtoLink = 'mailto:' + "isaia.maperi@gmail.com" + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
