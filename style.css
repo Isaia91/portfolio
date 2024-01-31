@@ -1214,15 +1214,16 @@ font-size: 16px;
 }
 
 @media screen and (min-width: 992px) {
-  .box {
-    display: block;
+	.box {
+	  transform: translateX(-400%);
+	}
+  
+	.box:nth-of-type(even) {
+	  transform: translateX(400%);
+	}
+  
+	.box.show {
+	  transform: translateX(0);
+	}
   }
-
-  .box:nth-of-type(even) {
-    display: block;
-  }
-
-  .box.show {
-    display: block;
-  }
-}
+  
