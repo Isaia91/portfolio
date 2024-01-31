@@ -1212,3 +1212,18 @@ font-size: 16px;
 	  display: none;
 	}
 }
+
+@media screen and (min-width: 992px) {
+  .box {
+    transform: translateX(-400%);
+    transition: transform 0.9s ease;
+  }
+
+  .box:nth-of-type(even) {
+    transform: translateX(400%);
+  }
+
+  .box.show {
+    transform: translateX(0);
+  }
+}
