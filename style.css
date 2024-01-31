@@ -340,18 +340,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
-.box {
-	transform: translateX(-400%);
-	transition: transform 0.9s ease;
-}
 
-.box:nth-of-type(even) {
-	transform: translateX(400%);
-}
-
-.box.show {
-	transform: translateX(0);
-}
 
 .box h2 {
 	font-size: 45px;
