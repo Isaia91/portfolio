@@ -25,6 +25,35 @@ body {
 	font-family: "Helvetica",sans-serif;
 }
 
+
+.block1 {
+	background-color: lightblue;
+	animation: slideUp 3s ease-in-out forwards, fadeOut 1s ease-in-out forwards 3s;
+}
+
+.block2 {
+	background-color: lightcoral;
+	animation: slideUp 3s ease-in-out forwards 3s, fadeOut 1s ease-in-out forwards 6s;
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
 .hu {
 	background-color: #000814;
 }
