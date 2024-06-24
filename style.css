@@ -1017,7 +1017,6 @@ textarea:valid+label {
   background-color: #ab2ee6;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
-  font-family: 'Attena', sans-serif;
   font-size: clamp(16px, 1.6vw, 18px);
   display: block;
   padding: 12px 20px;
