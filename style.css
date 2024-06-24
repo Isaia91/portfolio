@@ -503,6 +503,10 @@ body {
 		position: relative;
 		width: 100vw;
 	}
+
+	body{
+		overflow-x: hidden;
+	}
 }
 
 .circle svg {
@@ -912,6 +916,10 @@ x:-o-prefocus, hr:after {
   .contact-form-wrapper {
     border-radius: 0 0 10px 10px;
   }
+
+  body{
+	overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -919,6 +927,9 @@ x:-o-prefocus, hr:after {
     width: 95%;
     margin: 8% 5%;
   }
+  body{
+	overflow-x: hidden;
+}
 }
 
 h2 {
@@ -1031,12 +1042,18 @@ textarea:valid+label {
   h2 {
     font-size: clamp(40px, 10vw, 60px);
   }
+  body{
+	overflow-x: hidden;
+}
 }
 
 @media only screen and (max-width: 400px) {
   h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
+  body{
+	overflow-x: hidden;
+}
   
   .links {
     padding-top: 30px;
@@ -1053,6 +1070,9 @@ textarea:valid+label {
     #more {
         display: none;
     }
+	body{
+		overflow-x: hidden;
+	}
 	.toHide{
 		display: block;
 	}
@@ -1171,12 +1191,18 @@ flex-basis: calc(50% - 30px);
 .ag-courses-item_title {
 font-size: 24px;
 }
+body{
+	overflow-x: hidden;
+}
 }
 
 @media only screen and (max-width: 767px) {
 .ag-format-container {
 display: flex;	
 width: 96%;
+}
+body{
+	overflow-x: hidden;
 }
 
 }
@@ -1198,6 +1224,9 @@ padding: 22px 40px;
 .ag-courses-item_date-box {
 font-size: 16px;
 }
+body{
+	overflow-x: hidden;
+}
 }
 
 .responsive-image {
@@ -1212,5 +1241,8 @@ font-size: 16px;
 	  margin-right: 0;
 	  text-align: center;
 	  display: none;
+	}
+	body{
+		overflow-x: hidden;
 	}
 }
