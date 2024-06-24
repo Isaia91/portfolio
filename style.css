@@ -23,6 +23,7 @@ body {
 	color: #212529;
 	background-color: #1a1a1a;
 	font-family: "Helvetica",sans-serif;
+	overflow-x: hidden;
 }
 
 .hu {
